@@ -1,8 +1,9 @@
-Peer-graded Assignment: Build a Regression Model in Keras
+*Peer-graded Assignment: Build a Regression Model in Keras*
 
 PROMPT
-A. Build a baseline model (5 marks) 
 
+
+A. Build a baseline model (5 marks) 
 Use the Keras library to build a neural network with the following:
 
 - One hidden layer of 10 nodes, and a ReLU activation function
@@ -21,17 +22,23 @@ helper function from Scikit-learn.
 
 5. Report the mean and the standard deviation of the mean squared errors.
 
+   
+
 B. Normalize the data (5 marks) 
 
 Repeat Part A but use a normalized version of the data. Recall that one way to normalize the data is by subtracting the mean from the individual predictors and dividing by the standard deviation.
 
 How does the mean of the mean squared errors compare to that from Step A?
 
+
+
 C. Increate the number of epochs (5 marks)
 
 Repeat Part B but use 100 epochs this time for training.
 
 How does the mean of the mean squared errors compare to that from Step B?
+
+
 
 D. Increase the number of hidden layers (5 marks)
 
